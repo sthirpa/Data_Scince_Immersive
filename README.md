@@ -1,2 +1,2 @@
 # Data_Scince_Immersive
-Capstone. at General Assembly
+Capstone at General Assembly
