@@ -14,6 +14,20 @@ During this pandemic time, having face mask on is one of the critical requiremen
 
 **Dataset**: From [Kaggle](https://www.kaggle.com/prithwirajmitra/covid-face-mask-detection-dataset)
 
-* The dataset has both **Train** and **Test** datasets, each having subfolders containing pictures with mask and without mask.  
+* The dataset has both **Train** and **Test** datasets, each having subfolders containing pictures with mask and without mask:
+
+```   
+MaskDataset
+    |-- Test
+    |    . mask
+    |    . noMask
+    |-- Train
+    |    . mask
+    |    . noMask
+    |-- Validation
+         . mask
+         . noMask
+
+```  
 
 ![Sample pictures of the datasets](images/pic.png)
