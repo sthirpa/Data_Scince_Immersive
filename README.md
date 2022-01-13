@@ -16,4 +16,4 @@ During this pandemic time, having face mask on is one of the critical requiremen
 
 * The dataset has both **Train** and **Test** datasets, each having subfolders containing pictures with mask and without mask.  
 
-![Sample pictures of the datasets](pic.png)
+![Sample pictures of the datasets](images/pic.png)
