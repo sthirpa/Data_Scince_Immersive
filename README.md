@@ -9,8 +9,12 @@
   * **Conclusion**
 
 **Problem Statement** <br>
-As human use their eyes to perceive and react to their surrounding, computers in this digital era use computer vision to help us better served from modern technology and also make things much better than ever. Image classification (or image detection) is among the crucial tasks that computers perform to help human in the sectors:
--
+As human use their eyes to perceive and react to their surrounding, in this digital era computers use `computer vision` field to help us better served from modern technology and also make things much better than ever. Image classification (or image detection) is among the crucial tasks that computers perform to help human in:
+- Autonomous driving
+- Facial Detection and Recognition
+- Detecting COVID-19, Breast Cancer, Skin Cancer etc in Medicine, Biology, and Healthcare sectors
+- mobile computing and accessibility, and so on
+This project builds a model that accurately classifies or predicts images from a given dataset based on unique features of training dataset.
 
 
 
