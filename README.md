@@ -13,17 +13,17 @@ As human use their eyes to perceive and react to their surrounding, in this digi
 - Autonomous driving
 - Facial Detection and Recognition
 - Detecting COVID-19, Breast Cancer, Skin Cancer etc in Medicine, Biology, and Healthcare sectors
-- mobile computing and accessibility, and so on
+- Mobile computing and accessibility, and so on <br>
 This project builds a model that accurately classifies or predicts images from a given dataset based on unique features of training dataset.
 
 
 
-**Dataset**: From [keras datasets](https://keras.io/api/datasets/cifar10/) and more details about the images is located in the [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html).
+**Dataset**: From [keras datasets](https://keras.io/api/datasets/cifar10/) and more details about the images is located on the [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 >The `CIFAR-10` dataset consists of `60000` 32x32 color images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. <br>
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class ([source](https://www.cs.toronto.edu/~kriz/cifar.html)).
 
-I manually split the `50,000` training images into `30,000 images` for training and `20,000 images` for validation of my models and the `10,000 images` are for testing (refer my jupyter notebook).
+I manually split the `50,000` training images into `30,000 images` for training and `20,000 images` for validation of my models and the `10,000 images` are for testing ([refer my jupyter notebook](https://github.com/sthirpa/Data_Scince_Immersive/blob/Hirpa/codes%20in%20JupyterNotebook/CIFAR-10-SH.ipynb)).
 
 ```   
 CIFAR-10 Dataset
