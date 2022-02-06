@@ -9,12 +9,14 @@
   * **Conclusion**
 
 **Problem Statement** <br>
-As human use their eyes to perceive and react to their surrounding, in this digital era computers use `computer vision` field to help us better served from modern technology and also make things much better than ever. Image classification (or image detection) is among the crucial tasks that computers perform to help human in:
-- Autonomous driving
-- Facial Detection and Recognition
-- Detecting COVID-19, Breast Cancer, Skin Cancer etc in Medicine, Biology, and Healthcare sectors
-- Mobile computing and accessibility, and so on <br>
-This project builds a model that accurately classifies or predicts images from a given dataset based on unique features of training dataset.
+As human use their eyes to perceive and react to their surrounding, computers in this digital era use computer vision (CV) application to help us better served from modern technology. we are using CV in our daily lives with all the smart devices we have like security cameras, unlocking our smart phones, and unlocking our doors with  smart locks just with face recognition.  Image classification (or image detection) is among the crucial tasks that computers perform using the application of CV in:
+* autonomous driving,
+* facial detection/recognition,
+* detecting COVID-19, Breast Cancer, Skin Cancer etc in Medicine, Biology, and Healthcare sectors
+* mobile computing and accessibility, and so on .
+This project builds a model that accurately classifies or predicts images from a given dataset based on unique features of training dataset.<br>
+
+**Goal**: identifying unique or distinguishing features of images.
 
 
 
