@@ -1,13 +1,13 @@
 ### Capstone project on CIFAR-10 Image Classification using Neural Networks
 
-### **Content**
-* **Problem statement**
-* **Introduction**
-* **Data preprocessing**
-* **Building Artificial and Convolutional Neural Network**
-* **Regularizations parameters**
-* **Model Selection and Prediction**
-* **Conclusions/Next Step**
+### **Content Organization**
+* **[Introduction to Computer Vision](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/1-Computer-vision-intro.ipynba)**
+* **[How to build NNs from a single artificial neuron](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/2-Building-Neural-Networks.ipynb)**
+* **[Preview on: Activation and Loss Functions](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/3-Activation-and-Loss-Functions.ipynb)**
+* **[Multilayer multi-output NNs](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/4-Multi-layer-Multi-output-NNs.ipynb)**
+* **[convolutional layers](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/5-Convolutional-layers.ipynb)**
+* **[CNN modeling code](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/6-CNN-modeling-Code.ipynb)**
+* **[Presentation slide in `pdf` format](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/Capstone%20Presentation.pdf)**
 
 **Problem Statement** <br>
 As human use their eyes to perceive and react to their surrounding, computers use computer vision (CV) algorithms to detect images in order to do the tasks they are instructed to do.<br>
