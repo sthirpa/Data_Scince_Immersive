@@ -1,24 +1,20 @@
-### Capstone project on CIFAR-10 Image Classification
+### Capstone project on CIFAR-10 Image Classification using Neural Networks
 
 ### **Content**
-  * **Importing required libraries and frameworks**
-  * **Data and preprocessing**
-  * **Modeling**
-  * **Model training**
-  * **Evaluation**
-  * **Conclusion**
+* **Problem statement**
+* **Introduction**
+* **Data preprocessing**
+* **Building Artificial and Convolutional Neural Network**
+* **Regularizations parameters**
+* **Model Selection and Prediction**
+* **Conclusions/Next Step**
 
 **Problem Statement** <br>
-As human use their eyes to perceive and react to their surrounding, computers in this digital era use computer vision (CV) application to help us better served from modern technology. we are using CV in our daily lives with all the smart devices we have like security cameras, unlocking our smart phones, and unlocking our doors with  smart locks just with face recognition.  Image classification (or image detection) is among the crucial tasks that computers perform using the application of CV in:
-* autonomous driving,
-* facial detection/recognition,
-* detecting COVID-19, Breast Cancer, Skin Cancer etc in Medicine, Biology, and Healthcare sectors
-* mobile computing and accessibility, and so on .
-This project builds a model that accurately classifies or predicts images from a given dataset based on unique features of training dataset.<br>
-
-**Goal**: identifying unique or distinguishing features of images.
-
-
+As human use their eyes to perceive and react to their surrounding, computers use computer vision (CV) algorithms to detect images in order to do the tasks they are instructed to do.<br>
+We are using CV in our daily lives with all our smart devices like security cameras, smart phones, smart door locks, and so on that uses face recognition to authenticate users.  The applications of CV algorithms are also expanding in autonomous driving, detecting COVID-19, Breast and Skin Cancer detections and so on. <br>
+This project builds a model that accurately classifies images based on unique features of training dataset. <br>
+**Goal:** identifying unique or distinguishing features of images. <br>
+**Measurement metrics:** accuracy <br>
 
 **Dataset**: From [keras datasets](https://keras.io/api/datasets/cifar10/) and more details about the images is located on the [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html).
 
@@ -40,6 +36,21 @@ Sample pictures for each class of the `CIFAR-10` dataset:
 <img src="images/classes.png" width="475"/>
 <div>
 
+I started of with a very exciting topic: single layer neutron or `perceptron` and tried to build artificial Neural Network (ANN).
+
+I also have convolutional layers built based on the ANN concept to train my model.
+
+My baseline model has: <br>
+* Train_accur: 91.29% <br>
+* test_accur: 67.68% <br>
+
+- **poor performing model with too much overfitting**.<br>
+I tried some regularization techniques to combat the overfitting; and I did get better result: <br>
+
+* Train_accur: 86.04%
+* Test_accur: 86.96%
+
+This is my `best model` until I try more to get better accuracy.<br>
 
 ## Data Dictionary: <br>
 Besides [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html), I tried to list some terms in alphabetical order. <br>
@@ -68,9 +79,10 @@ Besides [keras official website](https://www.cs.toronto.edu/~kriz/cifar.html), I
 |Segment|A “segment” of an image represents a particular class of object that the neural network has identified in an image, represented by a pixel mask that can be used to extract it.[see `edge detection`]|
 |Testing dataset|After the model is built, testing data once again validates that it can make accurate predictions. If training and validation data include labels to monitor performance metrics of the model, the testing data should be unlabeled. Test data provides a final, real-world check of an unseen dataset to confirm that the ML algorithm was trained effectively.[Refer validation dataset, below]|
 |Training dataset|Training of deep neural nets is performed based on an existing labelled dataset, called training dataset ("supervised machine learning")|
-|Validation dataset|During training, validation data infuses new data into the model that it hasn’t evaluated before. Validation data provides the first test against unseen data, allowing data scientists to evaluate how well the model makes predictions based on the new data. Not all data scientists use validation data, but it can provide some helpful information to optimize hyperparameters, which influence how the model assesses data ([source](https://www.applause.com/blog/training-data-validation-data-vs-test-data)).|
-
+|Validation dataset|During training, validation data infuses new data into the model that it hasn’t evaluated before. Validation data provides the first test against unseen data, allowing data scientists to evaluate how well the model makes predictions based on the new data. Not all data scientists use validation data, but it can provide some helpful information to optimize hyper-parameters, which influence how the model assesses data ([source](https://www.applause.com/blog/training-data-validation-data-vs-test-data)).|
+- As my `next step` after this capstone project, I will try to build streamlit app (or GUI) to make image classification more interactive.
 ## References:
 - E.Mohammed, Deep Learning for Vision Systems, Manning Publications Co, 2020.
 - I. Goodfellow, Y. Bengio, A. Courville, Deep Learning, MIT Press, 2016.
 - T. Fawcett, Pattern Recognit. Lett. 2006, 27, 861.
+- All the other references I used for this project are in [my jupyter notebook](https://github.com/sthirpa/Data_Scince_Immersive-at-General-Assembly-/blob/Hirpa/CIFAR-10-SH.ipynb)
