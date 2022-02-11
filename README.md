@@ -16,5 +16,7 @@ Organization of my repos:
     * *Group Project Topic*: `Predicting employee total compensation`
   * **Project 6:** `Mini-project on Deep Learning`
     * *Topic*: `Image classification using MNIST image dataset`
+  * **Final Project**: capstone
+    * **My Topic:** `Image Classification Using Artificial and Neural Networks`
 
   are all the projects of mine that I did while I was in the immersive training with some updates added after graduation.
