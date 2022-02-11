@@ -1,5 +1,25 @@
 # ![GA Logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) Handy Links
 
+General Assembly's Data Science Immersive materials are organized into **twelve** weeks.
+
+Week   | Title                      | Topics Covered                  | Lessons
+------ | -------------------------- | ------------------------------- | -------
+1  | Python for Data Science         | Command Line and Git, Data Types, Control Flow, Functions, List Comprehension, Probability, Object Oriented Programming, Critical Thinking and Presenting, Ethics and Plagiarism | 1-9
+2  | Exploratory Data Analysis       | Pandas, Principles of Data Visualization, Exploratory Data Analysis, Discrete Distributions, Continuous Distributions, Central Limit Theorem, Hypothesis Testing | 1-7
+3  | Regression                      | Linear Regression, Regression Evaluation Metrics, Bias Variance Tradeoff, Train Test Split and Cross Validation, Feature Engineering, Model Workflow | 1-6
+4  | Classification                  | Logistic Regression, Regularization, K-Nearest Neighbors, Missing Values, Classification Metrics, Hyperparameters and Gridsearch | 1-7
+5  | Web Scraping, APIs, NLP         | Intro to HTML, BeautifulSoup, NLP, Word Vectors, APIs | 1-6
+6  | Advanced Supervised Learning    | CART, Bootstrapping and Bagging, Random Forests, Boosting, SVMs, GLMs, Gradient Descent, Imbalanced Data | 1-8
+7  | Deep Learning                   | Intro to Neural Networks, Intro to Keras, Deep Learning Regularization, Convolutional Neural Networks, Gridsearch with Keras | 1-6
+8  | Unsupervised Learning           | Intro to Clustering K Means, DBSCAN Clustering, PCA, Transfer Learning, Recommender Systems, Benford's Law | 1-6
+9  | More Unsupervised Learning      | Intro to Clustering K Means, DBSCAN Clustering, PCA, Transfer Learning, Recommender Systems, Benford's Law | 1-6
+10 | Time Series Analysis            | Intro to Time Series, Linear Time Series Models, ARIMA Models, VAR Models, Recurrent Neural Networks | 1-5
+11 | SQL, Big Data                   | PosgreSQL, BigQuery, Dataframes in PySpark, SparkML, Spark Model, Pipelines in PySpark, Intro to AWS, Flask | 1-8
+12 | Bayesian Statistics             | Intro to Bayes, Bayesian Inference, Simulation and MCMC, Bayesian Regression, Bayesian AB Testing | 1-5
+13 | Flex Topics, Capstone           | - | -
+
+
+
 #### [Zoom]()
 
 | URL                                                                                        | Meeting ID    | Password |
@@ -16,7 +36,7 @@
 
 #### [Capstone Guidelines & Schedule](./capstone/)
 
-#### [Graduation Requirements](./course-docs/graduation-requirements.md) 
+#### [Graduation Requirements](./course-docs/graduation-requirements.md)
 
 #### [Asking for Help](./course-docs/how-to-ask-for-help.md)
 
@@ -47,12 +67,12 @@ All of these times are estimates, except for the beginning of class time. All st
 
 Here is the schedule our class will be following for this course:
 
-# ![GA Logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) Schedule 
+# ![GA Logo](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) Schedule
 _*All times in Pacific Time._
 
 
 ### **Week 1 - Getting Started: Python for Data Science (Nov 01 - Nov 05)**
-    
+
 |              | **Monday**                        | **Tuesday**            | **Wednesday**                        | **Thursday**                      | **Friday**                            |
 | ------------ | --------------------------------- | ------------------     | ------------------------------------ | --------------------------------- | ------------------------------------- |
 | **9am**      | Course Orientation                | Github Practice        | Git & Lab Workflows                  | [Functions & Loops Practice][B-1]        | Project Tips                          |
@@ -80,7 +100,7 @@ _*All times in Pacific Time._
 
 ### **Week 2 - Exploratory Data Analysis (Nov 08 - Nov 12)**
 
-    
+
 |              | **Monday**                                 | **Tuesday**                     | **Wednesday**                                            | **Thursday**                       | **Friday**                            |
 | ------------ | ---------------------------------          | ------------------              | ------------------------------------                     | ---------------------------------  | ------------------------------------- |
 | **9am**      |  Markdown Tips                             | Open Work Time                  | [Breakfast Hour: Pandas EDA Practice][B-2]                      | Holiday                            | [Quiz 1: Review & Practice][B-2]             |
@@ -251,7 +271,7 @@ _*All times in Pacific Time._
 |              | **Monday**                        | **Tuesday**                       | **Wednesday**                     | **Thursday**                      | **Friday**                        |
 | ------------ | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | **9am**      |  Group Project Work Time          |  Group Project Work Time          |  Group Project Work Time          | Intro To Project 4                |  Holiday                          |
-| **10am**     |  Outcomes                         |  [Intro to Clustering: K-mean][S-8.01]      |  [Imbalanced Learning][S-8.02]    | Project 4 Work Time               |  Holiday                          | 
+| **10am**     |  Outcomes                         |  [Intro to Clustering: K-mean][S-8.01]      |  [Imbalanced Learning][S-8.02]    | Project 4 Work Time               |  Holiday                          |
 | **12pm**     |             **Lunch**             |             **Lunch**             |              **Lunch**            |              **Lunch**            |  Holiday                          |
 | **1pm**      | Project 3 Feedback                | Capstone Check-In Pt 2            |  Flex                             | Project 4 Work Time               |  Holiday                          |
 | **3pm**      | Project 3 Feedback                | Flex                              |  Flex Time                        | Project 4 Presentations           |  Holiday                          |
