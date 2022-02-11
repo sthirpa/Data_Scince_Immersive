@@ -14,5 +14,7 @@ Organization of my repos:
     * *My Topic*: `Restuarant Revenue Prediction Using regression`
   * **Project 5:** `Group Project`
     * *Group Project Topic*: `Predicting employee total compensation`
+  * **Project 6:** `Mini-project on Deep Learning`
+    * *Topic*: `Image classification using MNIST image dataset`
 
   are all the projects of mine that I did while I was in the immersive training with some updates added after graduation.
